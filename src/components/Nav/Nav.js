@@ -10,35 +10,42 @@ export default class Nav extends Component {
           <li
             className="navLink"
           >
-            <Link>
+            <Link to={'/'}>
               Home
             </Link>
           </li>
           <li
             className="navLink"
           >
-            <Link>
+            <Link to={'/'}>
               Bylaws
             </Link>
           </li>
           <li
             className="navLink"
           >
-            <Link>
+            <Link to={'/'}>
+              Minutes
+            </Link>
+          </li>
+          <li
+            className="navLink"
+          >
+            <Link to={'/'}>
               Draft Board
             </Link>
           </li>
           <li
             className="navLink"
           >
-            <Link>
+            <Link to={'/'}>
               Schedule
             </Link>
           </li>
           <li
             className="navLink"
           >
-            <Link>
+            <Link to={'/'}>
               Links
             </Link>
           </li>
