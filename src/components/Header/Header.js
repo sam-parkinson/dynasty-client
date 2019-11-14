@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from '../Nav/Nav';
 import './Header.css';
 
 export default class Header extends Component {
@@ -6,9 +7,7 @@ export default class Header extends Component {
     return (
       <header>
         <h1>The League</h1>
-        <nav>
-          This is where the navbar will go
-        </nav>
+        <Nav />
       </header>
     )
   }
