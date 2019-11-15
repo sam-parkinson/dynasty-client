@@ -17,14 +17,14 @@ export default class Nav extends Component {
           <li
             className="navLink"
           >
-            <Link to={'/'}>
+            <Link to={'/bylaws'}>
               Bylaws
             </Link>
           </li>
           <li
             className="navLink"
           >
-            <Link to={'/'}>
+            <Link to={'/minutes'}>
               Minutes
             </Link>
           </li>
