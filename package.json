@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "now --name league ./build"
+    "deploy": "now --prod ./build"
   },
   "eslintConfig": {
     "extends": "react-app"
