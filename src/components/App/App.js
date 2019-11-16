@@ -5,6 +5,9 @@ import Footer from '../Footer/Footer';
 import HomePage from '../../routes/HomePage/HomePage';
 import BylawsPage from '../../routes/BylawsPage/BylawsPage';
 import MinutesPage from '../../routes/MinutesPage/MinutesPage';
+import DraftBoardPage from '../../routes/DraftBoardPage/DraftBoardPage';
+import SchedulePage from '../../routes/SchedulePage/SchedulePage';
+import LinksPage from '../../routes/LinksPage/LinksPage'
 import './App.css';
 
 function App() {
@@ -24,6 +27,18 @@ function App() {
         <Route 
           path={'/minutes'}
           component={MinutesPage}
+        />
+        <Route 
+          path={'/draftboard'}
+          component={DraftBoardPage}
+        />
+        <Route 
+          path={'/schedule'}
+          component={SchedulePage}
+        />
+        <Route 
+          path={'/links'}
+          component={LinksPage}
         />
       </Switch>
       <Footer />
