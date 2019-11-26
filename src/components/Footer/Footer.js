@@ -3,7 +3,7 @@ import './Footer.css';
 
 function FooterLink(props) {
   return (
-    <li><a href={props.link} target="_blank">{props.text}</a></li>
+    <li><a href={props.link} target="_blank" rel="noopener noreferrer">{props.text}</a></li>
   )
 }
 
